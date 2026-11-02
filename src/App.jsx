@@ -107,7 +107,7 @@ function App() {
     <main className="site">
       <header className="navbar">
         <div className="logo">
-           Dig<span>Burn</span>
+           Waste-to-Energy<span>Explorer</span>
         </div>
       </header>
       <section className="scroll-section" ref={sectionRef}>
@@ -144,7 +144,7 @@ function App() {
       </section>
 
       <section className="closing-section">
-        <p className="eyebrow">THE DIGBURN CONCEPT</p>
+        <p className="eyebrow">THE DIGITAL CONCEPT</p>
         <h2>From plant measurements to engineering insight.</h2>
         <p>
           Combining industrial data, physical modelling and
