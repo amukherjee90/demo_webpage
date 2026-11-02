@@ -8,27 +8,27 @@ gsap.registerPlugin(ScrollTrigger)
 
 const scenes = [
   {
-    image: '/images/figure-1.jpg',
+    image: `${import.meta.env.BASE_URL}images/figure-1.jpg`,
     title: 'The complete facility',
     description: 'Explore the waste-to-energy plant from the outside.',
   },
   {
-    image: '/images/figure-2.jpg',
+    image: `${import.meta.env.BASE_URL}images/figure-2.jpg`,
     title: 'Behind the outer walls',
     description: 'Discover the equipment hidden inside the facility.',
   },
   {
-    image: '/images/figure-3.jpg',
+    image: `${import.meta.env.BASE_URL}images/figure-3.jpg`,
     title: 'Inside the plant',
     description: 'Take a closer look at the enclosed combustion system.',
   },
   {
-    image: '/images/figure-4.jpg',
+    image: `${import.meta.env.BASE_URL}images/figure-4.jpg`,
     title: 'The combustion process',
     description: 'Reveal the furnace, burning waste and heat-transfer surfaces.',
   },
   {
-    image: '/images/figure-5.jpg',
+    image: `${import.meta.env.BASE_URL}images/figure-5.jpg`,
     title: 'Understanding the physics',
     description: 'Follow combustion, heat transfer and flue-gas pathways.',
   },
